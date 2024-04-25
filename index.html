@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <script src="./main.js" defer></script>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    
+    <table id="library">
+        <thead>
+            <tr><th colspan="5">Library</th></tr>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>Pages</th>
+                <th>Read</th>
+                <th>Delete</th>
+            </tr>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table>
+    <div class="form-container">
+        <h1>Add New Book!</h1>
+        <form action='' method='post' class='new-book-form'>
+            <div class='form-row'>
+                <label for='title'>Title</label>
+                <input id='title' name='title' type='text'/>
+            </div>
+            <div class='form-row'>
+                <label for='author'>Author</label>
+                <input id='author' name='author' type='text'/>
+            </div>
+            <div class='form-row'>
+                <label for='pages'>Pages</label>
+                <input id='pages' name='pages' type='number' min="1"/>
+            </div>
+            <div class='form-row'>
+                <label for='read'>Have you read it?</label>
+                <input id='read' name='read' type='checkbox'/>
+            </div>
+            <div class='form-row'>
+                <button id="sub-button">Submit</button>
+               
+            </div>
+        </form>
+    </div>
+    
+</body>
+</html>
